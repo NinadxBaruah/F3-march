@@ -38,9 +38,7 @@ function Longjump(score, callback) {
 
 function HighJump(score, callback) {
   const highestJumpColor = prompt(
-    "What color secured the highest jump?",
-    "red"
-  );
+    "What color secured the highest jump?");
   if (
     Object.keys(score).includes(highestJumpColor) &&
     highestJumpColor !== null &&
